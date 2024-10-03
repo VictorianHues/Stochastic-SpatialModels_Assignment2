@@ -1,1 +1,13 @@
-# Stochastic-SpatialModels_Assignment2
+# Assignment 2
+## Stochastic and Spatial Models
+---
+Peterson, Victoria J  
+*ID: 15476758* 
+
+(Name)
+*ID: (ID)*
+
+University of Amsterdam  
+*Introduction to Computational Science, Block 1, 2024*  
+
+Due: 27 October 2024
