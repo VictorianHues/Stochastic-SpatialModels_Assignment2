@@ -4,8 +4,8 @@
 Peterson, Victoria J  
 *ID: 15476758* 
 
-(Name)
-*ID: (ID)*
+Wessel Beumer
+*ID: 12640662*
 
 University of Amsterdam  
 *Introduction to Computational Science, Block 1, 2024*  
