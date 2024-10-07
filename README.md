@@ -4,7 +4,7 @@
 Peterson, Victoria J  
 *ID: 15476758* 
 
-Wessel Beumer
+Beumer, Wessel T L
 *ID: 12640662*
 
 University of Amsterdam  
