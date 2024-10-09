@@ -15,19 +15,9 @@
         (self: super: {
           python312Packages = super.python312Packages.override {
             overrides = pyself: pysuper: {
-              lmfit = pysuper.lmfit.overrideAttrs {doCheck = false;};
+              # lmfit = pysuper.lmfit.overrideAttrs {doCheck = false;};
             };
           };
-          # (nfinal: nprev: {
-          #   lmfit = nprev.lmfit.overridePythonAttrs (oldAttrs: { doCheck = false; doInstallCheck = false; });
-          # })
-          # = super.python312.override {
-          # packageOverrides = pyfinal: pyprev: {
-          # lmfit = pyprev.lmfit.overrideAttrs {
-          # doCheck = false;
-          # };
-          # };
-          # };
         }
         )
       ];
@@ -44,6 +34,7 @@
           python312Packages.alive-progress
           python312Packages.lmfit
           python312Packages.scipy
+          python312Packages.networkx
 
           typst
         ];
