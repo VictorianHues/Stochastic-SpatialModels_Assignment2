@@ -9,6 +9,19 @@
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
+      # ndlib = 
+      #   let
+      #     pname = "ndlib";
+      #     version = "5.1.1";
+      #   in
+      #   pkgs.python312Packages.buildPythonPackage {
+      #     inherit pname version;
+      #     src = pkgs.fetchPypi {
+      #       inherit pname version;
+      #       sha256 = "sha256-qKss56484vQRZHbaan0ks0qLZKeK8Wek99mGFTtJ/Dw=";
+      #     };
+      #     doCheck = false;
+      #   };
     in
     {
       nixpkgs.overlays = [
