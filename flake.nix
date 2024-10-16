@@ -99,16 +99,16 @@
         };
     in
     {
-      nixpkgs.overlays = [
-        (self: super: {
-          python312Packages = super.python312Packages.override {
-            overrides = pyself: pysuper: {
-              # lmfit = pysuper.lmfit.overrideAttrs {doCheck = false;};
-            };
-          };
-        }
-        )
-      ];
+      # nixpkgs.overlays = [
+      #   (self: super: {
+      #     python312Packages = super.python312Packages.override {
+      #       overrides = pyself: pysuper: {
+      #         # lmfit = pysuper.lmfit.overrideAttrs {doCheck = false;};
+      #       };
+      #     };
+      #   }
+      #   )
+      # ];
 
       devShells.${system}.default = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
@@ -126,7 +126,8 @@
           ndlib
           # netdispatch
 
-          typst
+          # typst
+          # uv
         ];
 
       };
