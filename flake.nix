@@ -124,10 +124,8 @@
           python312Packages.scipy
           networkx
           ndlib
-          # netdispatch
 
-          # typst
-          # uv
+          ffmpeg
         ];
 
       };
