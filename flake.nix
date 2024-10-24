@@ -122,10 +122,12 @@
           python312Packages.alive-progress
           python312Packages.lmfit
           python312Packages.scipy
+          python312Packages.pillow
           networkx
           ndlib
           # netdispatch
 
+          ffmpeg-full
           # typst
           # uv
         ];
